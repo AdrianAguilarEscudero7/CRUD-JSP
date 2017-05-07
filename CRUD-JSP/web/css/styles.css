@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-may-2017, 17:31:56
+    Author     : adri
+*/
+
+body {
+  background-color: #FF5E00;
+}
+
+#wrapper {
+  margin: auto;
+  text-align: left;
+  width: 98%;
+}
+
+#navbar span, input {
+  font-size: 1em;
+  margin: 5px;
+}
+
+#view-content {
+  padding: 4px;
+}
+
+span {
+  color: #000;
+  font-weight: bold;
+  padding-right: 10px;
+  border-bottom: 2px solid #FF5E00;
+  text-align: center;
+}
+
+input[type="text"] {
+  border: 0;
+  border-bottom: 2px solid #FF5E00;
+  background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+#body table {
+  font-size: 1em;
+  font-weight: bold;
+  border-collapse: collapse;
+}
+
+table tr:nth-child(2n) {
+  background-color: #e0e0e0;
+}
+
+#id-box {
+  width: 44px;
+}
+
+#cntd-box {
+  width: 86px;
+}
+
+#marca-box,  #model-box, #conect-box, #type-box {
+  width: 190px;
+}
+
+#price-box {
+  width: 179px;
+}
+
+h2 {
+  font-family: fantasy, sans-serif, Georgia;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+#content {
+  text-align: center;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+#content, #body-section {
+  margin: auto;
+  border-radius: 7px;
+  background-color: #fff;
+  width: 99%;
+}
+
+#modify-modal .modal-header {
+  background-color: #FF5E00;
+  color: #fff;
+  font-weight: bold;
+}
+
+#myModal .modal-body {
+  background-color: #FF5E00;
+  color: #fff;
+  font-weight: bold;
+}
+
+#modify-modal .modal-body {
+  text-align: center;
+}
+
+video {
+  width: 99%;
+  height: 490px;
+  padding-top: 6px;
+}
+
+.btn-styles {
+  border-radius: 0;
+  border: 2px solid #fff;
+  background-color: #FF5E00;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-styles:hover {
+  border: 2px solid #FF5E00;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
